@@ -1,0 +1,74 @@
+<html>
+<head>
+  <!-- Link the style sheet here -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<body>
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Contact card with background -->
+  <div class="card" style="width: 80%; margin: auto; margin-top:5%; border-radius: 15px; overflow: hidden;">
+    <div style="position: relative; background-image: url('/static/showroom.jpg'); background-size: cover; background-position: center; min-height: 500px;">
+      <img src="/static/car_dealership.jpg" alt="">
+      <!-- Contact info panel -->
+      <div style="position: absolute; right: 20px; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.95); padding: 30px; border-radius: 10px; min-width: 350px;">
+        
+        <!-- Profile icon -->
+        <div style="display: flex; align-items: center; margin-bottom: 30px; justify-content: center;">
+            <img src="/static/contactus.png" alt="Support Icon" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; background-color: white; padding: 10px; box-shadow: 0px 2px 6px rgba(0,0,0,0.2);">
+          </div>
+        
+        <!-- Contact details -->
+        <div style="text-align: left;">
+          <div style="margin-bottom: 15px;">
+            <p style="color: #6699ff; font-weight: bold; margin-bottom: 5px;">Contact Customer Service</p>
+            <p style="color: #6699ff; margin: 0;">support@bestcars.com</p>
+          </div>
+          
+          <div style="margin-bottom: 15px;">
+            <p style="color: #6699ff; font-weight: bold; margin-bottom: 5px;">Contact our National Advertising team</p>
+            <p style="color: #6699ff; margin: 0;">NationalSales@bestcars.com</p>
+          </div>
+          
+          <div style="margin-bottom: 15px;">
+            <p style="color: #6699ff; font-weight: bold; margin-bottom: 5px;">Contact our Public Relations team</p>
+            <p style="color: #6699ff; margin: 0;">PR@bestcars.com</p>
+          </div>
+          
+          <div style="margin-bottom: 15px;">
+            <p style="color: #6699ff; font-weight: bold; margin-bottom: 5px;">Contact the bestcars.com offices</p>
+            <p style="color: #6699ff; margin: 0;">312-611-1111</p>
+          </div>
+          
+          <div style="margin-bottom: 15px;">
+            <p style="color: #6699ff; font-weight: bold; margin-bottom: 5px;">Become a bestcars.com car dealer</p>
+            <p style="color: #6699ff; margin: 0;">Visit growwithbestcars.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -50,7 +50,7 @@ class CarModel(models.Model):
     ]
 
     car_make = models.ForeignKey(CarMake, on_delete=models.CASCADE)  # Many-to-one
-    dealer_id = models.IntegerField()  # Refers to dealer in Cloudant DB
+    dealer_id = models.IntegerField(null=True, blank=True)  # Refers to dealer in Cloudant DB
     name = models.CharField(max_length=100)
     type = models.CharField(max_length=10, choices=TYPE_CHOICES)
     year = models.IntegerField(
